@@ -66,6 +66,10 @@ class _HomepageState extends State<HomePage> {
         });
   }
 
+  void trailFunction(){
+    
+  }
+
   void deleteTransaction(String id) {
     setState(() {
       userTransactions.removeWhere((tx) => tx.id == id);
